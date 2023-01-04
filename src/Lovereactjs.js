@@ -1,4 +1,4 @@
-export default function Lovereact() {
+export function Lovereact() {
     return(
       <ul>
         <li>Popular in the industry</li>

@@ -1,5 +1,6 @@
 import './App.css';
-import Lovereact from './Lovereactjs.js';
+import { Lovereact } from './Lovereactjs.js';
+import Classbasedcom from './Info.js';
 
 function App() {
   return (
@@ -10,13 +11,13 @@ function App() {
   );
 }
 
-function Info() {
-  return(
-    <div>
-      <h1>Why i love react js</h1>
-    </div>
-  )
-}
+// function Info() {
+//   return(
+//     <div>
+//       <h1>Why i love react js</h1>
+//     </div>
+//   )
+// }
 
 
 export default App;
