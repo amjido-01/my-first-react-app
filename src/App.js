@@ -2,12 +2,15 @@ import './App.css';
 import  Lovereact  from './Lovereactjs.js';
 import Classcomp from './Classcomp.js';
 import Btn from './components/button';
+import StateBtn from './components/BtnState';
+
 function App() {
   return (
     <div className="App">
      <Classcomp title="testing"/>
      <Lovereact />
      <AddItems number={2} text="joe"/>
+     <StateBtn />
     </div>
   );
 }
