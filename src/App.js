@@ -5,7 +5,7 @@ import Btn from './components/button';
 function App() {
   return (
     <div className="App">
-     <Classcomp />
+     <Classcomp title="testing"/>
      <Lovereact />
      <AddItems number={2} text="joe"/>
     </div>
@@ -23,13 +23,13 @@ function NoteFunc() {
 }
 
 function AddItems(props) {
-  const value = props.text
   const labelInfo = "type something here";
   return(
     <form>
       <NoteFunc />
       <label for="form-text">{ labelInfo }</label>
-      <input type="text" id="form-text" value={value} />
+      <p>{props.number}</p>
+      <input type="text" id="form-text" value={props.text} />
       <Btn />
     </form>
   )
