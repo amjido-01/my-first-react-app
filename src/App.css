@@ -26,16 +26,38 @@
 .card {
   border: 1px solid blue;
   width: 300px;
+  background-color: hsl(216, 12%, 8%);
+  padding: 12px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
   margin-bottom: 10px;
 }
 
+.card-header {
+  /* border: 1px solid black; */
+  display: flex;
+}
+.card-header a{
+  /* border: 1px solid green; */
+}
+
 .card-body h1 {
   text-transform: uppercase;
   font-size: 15px;
-
-
+  text-align: start;
+  color: hsl(0, 0%, 100%);
 }
 
+.body-text {
+  color: hsl(217, 12%, 63%);
+}
+
+.card-body p {
+  text-align: start;
+}
+
+.values {
+  display: flex;
+  justify-content: space-evenly;
+}
