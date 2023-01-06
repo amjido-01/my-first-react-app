@@ -1,7 +1,7 @@
 import './App.css';
 import  Lovereact  from './Lovereactjs.js';
 import Classcomp from './Classcomp.js';
-import Btn from './components/button';
+// import Btn from './components/button';
 import StateBtn from './components/BtnState';
 import CardComponent from './components/card';
 
@@ -36,7 +36,7 @@ function AddItems(props) {
       <label for="form-text">{ labelInfo }</label>
       <p>{props.number}</p>
       <input type="text" id="form-text" value={props.text} />
-      <Btn />
+      {/* <Btn /> */}
     </form>
   )
 }
