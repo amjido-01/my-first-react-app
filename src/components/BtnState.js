@@ -16,10 +16,18 @@ function StateBtn() {
 
     return(
         <div>
-            <p>title: { title }</p>
-            <p>counter: { counter }</p>
+            <Data title={title} counter={counter}/>
             <button onClick={updateTitleState}>update title</button>
             <button onClick={updateCountState}>update counter</button>
+        </div>
+    )
+}
+
+function Data(props) {
+    return(
+        <div>
+            <p>Title: {props.title}</p>
+            <p>counter: {props.counter}</p>
         </div>
     )
 }
