@@ -14,10 +14,10 @@ const CardComponent = () => {
                 </a>
             </span>
             <div className='card-body'>
-                <h1>How did we do</h1>
+                <h1>please rate my first react component</h1>
 
                 <p className='body-text'>please let me know how you thinks this card component style feels,
-                    All feedback os appreciated to help me develope my react js journey!
+                    All feedback is appreciated to help me develope my react js journey!
                 </p>
                 
                 <div className='values'>
