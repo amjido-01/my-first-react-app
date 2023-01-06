@@ -9,10 +9,10 @@ import CardComponent from './components/card';
 function App() {
   return (
     <div className="App">
-     <Classcomp title="testing"/>
-     <Lovereact />
-     <AddItems number={2} text="joe"/>
-     <StateBtn />
+     {/* <Classcomp title="testing"/> */}
+     {/* <Lovereact /> */}
+     {/* <AddItems number={2} text="joe"/> */}
+     {/* <StateBtn /> */}
      <CardComponent />
     </div>
   );
