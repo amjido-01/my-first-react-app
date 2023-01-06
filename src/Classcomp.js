@@ -1,5 +1,6 @@
 import React from 'react';
 import myImg from './logo.svg'
+// import './App.css'
 
 class Classcomp extends React.Component {
     constructor(props) {
@@ -11,7 +12,7 @@ class Classcomp extends React.Component {
         return(
             <div>
                 <img src={ myImg } width="90px" alt='react logo' />
-                <h1>Why i love react js</h1>
+                <h1 className='heading'>Why i love react js</h1>
                 <p>{title}</p>
             </div>
         )

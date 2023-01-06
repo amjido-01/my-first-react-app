@@ -3,6 +3,8 @@ import  Lovereact  from './Lovereactjs.js';
 import Classcomp from './Classcomp.js';
 import Btn from './components/button';
 import StateBtn from './components/BtnState';
+import CardComponent from './components/card';
+
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
      <Lovereact />
      <AddItems number={2} text="joe"/>
      <StateBtn />
+     <CardComponent />
     </div>
   );
 }

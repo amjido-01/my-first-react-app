@@ -13,3 +13,29 @@
   }
 }
 
+.heading {
+  color: blue;
+}
+
+.btn {
+  background-color: orangered;
+  border: none;
+  padding: 5px;
+}
+
+.card {
+  border: 1px solid blue;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.card-body h1 {
+  text-transform: uppercase;
+  font-size: 15px;
+
+
+}
+
