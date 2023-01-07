@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import Btn from './button';
 
-// library.add(faCoffee);
 
 const CardComponent = () => {
     return(
