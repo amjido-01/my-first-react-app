@@ -13,22 +13,20 @@ const Clock = ({time, color}) => {
             marginLeft: "auto",
             marginRight: "auto",
             textAlign: "center",
-            padding: "10px"
+            padding: "10px",
         },
         user: {
-            textAlign: "right"
+            textAlign: "right",
         }
     }
    return(
     <div className='clock' style={ styles.clock } >
         <>
-        <FontAwesomeIcon icon={faHashtag} />
-
             <h1>
                 { time }
             </h1>
-            <p style={{ border: '1px solid white' }}>Saturday, January 07</p> 
-            <p className="user" style={ styles.user }>@amjido_01</p>
+            <p style={{ marginBottom: '0px' }}>Saturday, January 07</p> 
+            <p className="user" style={ styles.user }> <FontAwesomeIcon icon={faHashtag} />amjido_01 </p>
         </>
     </div>
    )
