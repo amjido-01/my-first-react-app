@@ -7,19 +7,22 @@ const products = [
 ]
 
 const Data = () => {
-    const listItems = products.map(product => 
-        <li key={ product.id }
-        style={{color: product.isFruit ? 'green' : 'blue'}}
+    const listItems = products.map((product, index) => 
+        <li
+         key = { index }
+         style = {{ color: product.isFruit ? 'green' : 'red' }}
         >
-            { product.title }
+            {product.title}
         </li>    
     );
 
     return(
         <>
-            <ul>{ listItems }</ul>
+            <ul>
+                { listItems }
+            </ul>
         </>
     )
-};
+}
 
 export default Data;
