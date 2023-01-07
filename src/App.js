@@ -18,7 +18,7 @@ const useTime = () => {
 }
 
 function App() {
-  
+  const time = useTime()
   return (
     <div className="App">
      {/* <Card /> */}
@@ -34,7 +34,7 @@ function App() {
       />
 
       {/* clock component */}
-      <Clock color={ color } time={ time.toLocaleTimeString() } />
+      <Clock time={ time.toLocaleTimeString() } />
 
     </div>
   );
