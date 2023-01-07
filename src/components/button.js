@@ -1,5 +1,4 @@
 import React from "react";
-// import '../App.css'
 function Btn() {
   const value = "sumit".toUpperCase()
   return(

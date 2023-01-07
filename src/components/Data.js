@@ -7,15 +7,17 @@ const products = [
 ]
 
 const Data = () => {
-    const listItems = product.map(product => 
-        <li
-        key={product.id} style={{color: product.isFruit ? 'green' : 'blue'}}
-        >{product.title}</li>
+    const listItems = products.map(product => 
+        <li key={ product.id }
+        style={{color: product.isFruit ? 'green' : 'blue'}}
+        >
+            { product.title }
+        </li>    
     );
 
     return(
         <>
-            <ul>{listItems}</ul>
+            <ul>{ listItems }</ul>
         </>
     )
 };

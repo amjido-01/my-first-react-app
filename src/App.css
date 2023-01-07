@@ -4,20 +4,6 @@ body {
   background-color: hsl(216, 12%, 8%);
 }
 
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .heading {
   color: blue;
@@ -32,8 +18,6 @@ body {
 .card {
   border-radius: 15px;
   width: 250px;
-  /* background-color: hsl(216, 12%, 8%); */
-  /* background-color: hsl(216, 12%, 54%); */
   background-color: hsl(213, 19%, 18%);
   padding: 16px;
   margin-left: auto;
@@ -43,7 +27,6 @@ body {
 }
 
 .card-header {
-  /* border: 1px solid black; */
   display: flex;
 }
 .card-header a{
