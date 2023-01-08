@@ -4,6 +4,7 @@ import { PropsExample } from './components/PropsExample';
 import Clock from './components/Clock';
 import { useEffect, useState } from 'react';
 import SecondData from './components/SecondData';
+import {ConditionalRen} from './components/ConditionalRen';
 // import Card from './components/Card';
 
 
@@ -76,7 +77,7 @@ function App() {
       {/* clock component */}
       <Clock time={ time.toLocaleTimeString() } />
 
-        <SecondData 
+        {/* <SecondData 
           userId = {posts[0].userId}
           id = {posts[0].id} 
           title = {posts[0].title} 
@@ -95,7 +96,9 @@ function App() {
           id = {posts[2].id} 
           title = {posts[2].title} 
           body = {posts[2].body} 
-        />
+        /> */}
+
+        <ConditionalRen />
         
 
     </div>
