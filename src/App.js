@@ -24,14 +24,14 @@ function App() {
      {/* <Card /> */}
 
       {/* display data component */}
-     <Data />
+     {/* <Data />
      < PropsExample name='@alajido_01' 
         person = {{
           firstName: 'Abubakar',
           age: 23,
           color: 'green'
         }} 
-      />
+      /> */}
 
       {/* clock component */}
       <Clock time={ time.toLocaleTimeString() } />

@@ -14,6 +14,7 @@ const Clock = ({time, color}) => {
             marginRight: "auto",
             textAlign: "center",
             padding: "10px",
+            marginTop: "15%"
         },
         user: {
             textAlign: "right",
