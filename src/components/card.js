@@ -4,7 +4,7 @@ import { faStar } from '@fortawesome/free-solid-svg-icons';
 import Button from './Button';
 
 
-const CardComponent = () => {
+const Card = () => {
     return(
         <div className='card'>
             <span className='card-header'>
@@ -32,4 +32,4 @@ const CardComponent = () => {
     )
 }
 
-export default CardComponent; 
+export default Card; 
