@@ -1,5 +1,5 @@
 import React from "react";
-function Btn() {
+function Button() {
   const value = "sumit".toUpperCase()
   return(
     <form>
@@ -8,4 +8,4 @@ function Btn() {
   )
 }
 
-export default Btn;
+export default Button;

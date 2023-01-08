@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
-import Btn from './button';
+import Button from './Button';
 
 
 const CardComponent = () => {
@@ -26,7 +26,7 @@ const CardComponent = () => {
                     <p>4</p>
                     <p>5</p>
                 </div>
-                <Btn />
+                <Button />
             </div>
         </div>
     )
