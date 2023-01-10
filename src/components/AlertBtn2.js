@@ -4,15 +4,19 @@ const Btn = ({ onSmash, value, message}) => {
     )
 }
 
-const Toolbar2 = ({}) => {
+const Toolbar2 = ({ onSmash }) => {
     return(
        <div>
-            <Btn value='click me' message='hy'></Btn>
-            <Btn value='click me' message='hy again'></Btn>
+            <Btn onSmash={ onSmash }></Btn>
        </div>
     )
 }
 
-export const Main = () => {
-
+export const Main = ({ onSmash, message }) => {
+    const onSmash = () => {
+        alert(message)
+    }
+    return(
+        <Toolbar2 onClick={ onSmash }></Toolbar2>
+    )
 }
