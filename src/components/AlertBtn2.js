@@ -12,7 +12,8 @@ const Toolbar2 = ({ onSmash }) => {
     )
 }
 
-export const Main = ({ onSmash, message }) => {
+export const Main = () => {
+    const message = 'hello';
     const onSmash = () => {
         alert(message)
     }
