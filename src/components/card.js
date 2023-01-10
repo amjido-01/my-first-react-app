@@ -9,7 +9,7 @@ const Card = () => {
         <div className='card'>
             <span className='card-header'>
                 <a href='/#'>
-                    <FontAwesomeIcon icon={faStar} />
+                    <FontAwesomeIcon icon={ faStar } />
                 </a>
             </span>
             <div className='card-body'>
