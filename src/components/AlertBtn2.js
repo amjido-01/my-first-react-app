@@ -1,15 +1,10 @@
-import { faMapPin } from "@fortawesome/free-solid-svg-icons"
-
-const Btn = (props) => {
-    const triggerFun = () => {
-        alert(props.message)
-    }
+const Btn = ({ onSmash, value, message}) => {
     return(
-        <button onClick={triggerFun}>{props.value}</button>
+        <button onClick={ onSmash }>{ value }</button>
     )
 }
 
-const Toolbar2 = () => {
+const Toolbar2 = ({}) => {
     return(
        <div>
             <Btn value='click me' message='hy'></Btn>
@@ -18,8 +13,6 @@ const Toolbar2 = () => {
     )
 }
 
-export default Main() {
-    return(
-        <Toolbar2></Toolbar2>
-    )
+export const Main = () => {
+
 }
