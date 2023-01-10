@@ -1,5 +1,5 @@
 const AlertBtn = ({ message, children }) => {
-    const clickHandler = ({message}) => {
+    const clickHandler = () => {
         alert(message);
     };
     return(

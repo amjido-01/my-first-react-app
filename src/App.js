@@ -7,6 +7,7 @@ import SecondData from './components/SecondData';
 import {ConditionalRen} from './components/ConditionalRen';
 // import Card from './components/Card';
 import { Toolbar }  from './components/AlertBtn'
+import { Toolbar2 } from './components/AlertBtn2';
 
 
 const useTime = () => {
@@ -101,6 +102,7 @@ function App() {
 
         <ConditionalRen />
         <Toolbar />
+        <Toolbar2 />
         
 
     </div>
