@@ -5,7 +5,6 @@ import Clock from './components/Clock';
 import { useEffect, useState } from 'react';
 import SecondData from './components/SecondData';
 import {ConditionalRen} from './components/ConditionalRen';
-// import Card from './components/Card';
 import { Toolbar }  from './components/AlertBtn'
 import { Toolbar2 } from './components/AlertBtn2';
 
