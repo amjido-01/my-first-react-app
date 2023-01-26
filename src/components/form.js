@@ -2,11 +2,12 @@ import React from "react";
 
 
 function Form() {
+    const text = 'text'
     return(
         <>
             <form>
                 <label ></label>
-                <input type={} id=""
+                <input type={ text } id="" />
             </form>
         </>
     )
