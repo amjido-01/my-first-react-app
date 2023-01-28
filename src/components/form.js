@@ -6,8 +6,8 @@ function Form() {
     return(
         <>
             <form>
-                <label ></label>
-                <input type={ text } id="" />
+                <label htmlFor="fName"></label>
+                <input type={ text } id="fName" />
             </form>
         </>
     )
