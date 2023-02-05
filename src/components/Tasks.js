@@ -1,10 +1,13 @@
 import React from 'react'
+import Task from './Task'
 
 
-const Tasks = props => {
+const Tasks = ({ tasks }) => {
   return (
     <div>
-        { props.tasks.map((task) => (<h2 key={ props.tasks.id }> {props.task.title} </h2>)
+        { tasks.map((task) => (
+            <Task key={ task.id } className='text-green-500 bg-gray-300 p-2 my-2 text-xl' task='' />
+        )
         )}
     </div>
   )
