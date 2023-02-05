@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Task = () => {
+const Task = ({ task }) => {
   return (
     <div>
         <h3>
-            
+
         </h3>
     </div>
   )
