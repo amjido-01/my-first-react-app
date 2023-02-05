@@ -1,9 +1,10 @@
 import React from 'react'
 
-const Button = (props) => {
+const Button = ({ color, text }) => {
   return (
-    <button className='text-xl bg-green-500 text-white px-3 border-none hover:bg-green-400'>Button</button>
-  )
+  <button style={{backgroundColor: color}} class="bg-{ color } hover:bg-green-400 text-white font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+    { text }
+  </button>  )
 }
 
 
