@@ -28,7 +28,7 @@ function App() {
     },
 ])
   return (
-    <div className="App container border-solid border-2 border-green-600 mx-auto h-64">
+    <div className="App container border-solid border-2 w-[50%] border-green-600 mx-auto h-auto">
       <Header />
       <Tasks tasks={ tasks }/>
     </div>
