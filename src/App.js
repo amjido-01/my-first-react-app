@@ -26,11 +26,19 @@ function App() {
       "title": "Task three",
       "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
     },
-])
+  ])
+  const noData = 'No task to display'
+  const deleteTask = (id) => {
+    setTasks(tasks.filter((task) => task.id !== id))
+  }
+  const setReminder = () => {
+    
+  }
+
   return (
     <div className="App container border-solid border-2 w-[50%] border-green-600 mx-auto h-auto">
       <Header />
-      <Tasks tasks={ tasks }/>
+      {tasks.length > 0 ? <Tasks tasks={ tasks } onDelete={ deleteTask } /> : { noData } }
     </div>
   );
 }
