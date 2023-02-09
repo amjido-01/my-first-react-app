@@ -31,14 +31,14 @@ function App() {
   const deleteTask = (id) => {
     setTasks(tasks.filter((task) => task.id !== id))
   }
-  const setReminder = () => {
-    
+  const setReminder = (id) => {
+    console.log('toggled!')
   }
 
   return (
     <div className="App container border-solid border-2 w-[50%] border-green-600 mx-auto h-auto">
       <Header />
-      {tasks.length > 0 ? <Tasks tasks={ tasks } onDelete={ deleteTask } /> : { noData } }
+      {tasks.length > 0 ? <Tasks tasks={ tasks } onDelete={ deleteTask } onSetReminder={setReminder} /> : { noData } }
     </div>
   );
 }
