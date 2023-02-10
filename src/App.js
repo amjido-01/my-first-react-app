@@ -12,19 +12,22 @@ function App() {
       "userId": 1,
       "id": 1,
       "title": "Task one",
-      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et",
+      "reminder" : true
     },
     {
       "userId": 1,
       "id": 2,
       "title": "Task two",
-      "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+      "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae",
+      "reminder": false
     },
     {
       "userId": 1,
       "id": 3,
       "title": "Task three",
-      "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+      "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut",
+      "reminder": true
     },
   ])
 
