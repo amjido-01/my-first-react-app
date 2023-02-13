@@ -5,7 +5,6 @@ import Tasks from './components/Tasks';
 import { useState } from 'react';
 
 
-
 function App() {
   const [tasks, setTasks] = useState([
     {
@@ -31,7 +30,7 @@ function App() {
     },
   ])
 
-  const noData = 'No task to display'
+
   const deleteTask = (id) => {
     setTasks(tasks.filter((task) => task.id !== id))
   }
@@ -43,7 +42,7 @@ function App() {
   return (
     <div className="App container border-solid border-2 w-[50%] border-green-600 mx-auto h-auto">
       <Header />
-      {tasks.length > 0 ? <Tasks tasks={ tasks } onDelete={ deleteTask } onSetReminder={setReminder} /> : { noData } }
+      {tasks.length > 0 ? <Tasks tasks={ tasks } onDelete={ deleteTask } onSetReminder={ setReminder } /> : "No Task To Display" }
     </div>
   );
 }
