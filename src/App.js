@@ -40,7 +40,7 @@ function App() {
   }
 
   return (
-    <div className="App container border-solid border-2 w-[50%] border-green-600 mx-auto h-auto">
+    <div className="App container border-solid border-2 w-[50%] border-green-600 mx-auto">
       <Header />
       {tasks.length > 0 ? <Tasks tasks={ tasks } onDelete={ deleteTask } onSetReminder={ setReminder } /> : "No Task To Display" }
     </div>
