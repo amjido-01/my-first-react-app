@@ -7,8 +7,8 @@ const Task = ({ task, onDelete, onSetReminder }) => {
   return (
     <div className={` ${task.reminder ? 'reminder' : ' '} flex justify-between items-center text-dark bg-gray-300 p-2 my-2 text-xl cursor-pointer`} onDoubleClick={() => onSetReminder(task.id) }>
       <div className='border-2'>
-        <h3 className=''>{task.title}</h3>
-        <p className='text-sm border-2'>{d.toUTCString()}</p>
+        <h3 className='select-none'>{task.title}</h3>
+        <p className='text-sm border-2 select-none'>{d.toUTCString()}</p>
       </div>
       <div>
         <FaRegTimesCircle style={{ color: 'red' }} onClick={()=> onDelete(task.id)}/>
