@@ -36,11 +36,11 @@ function App() {
   }
 
   const setReminder = (id) => {
-    console.log(id)
+    setTasks(tasks.map((task) => task.id === id ? {...task, reminder: !task.reminder} : task))
   }
 
   return (
-    <div className="App container border-solid border-2 w-[50%] border-green-600 mx-auto">
+    <div className="App container w-[50%] mx-auto h-fit">
       <Header />
       {tasks.length > 0 ? <Tasks tasks={ tasks } onDelete={ deleteTask } onSetReminder={ setReminder } /> : "No Task To Display" }
     </div>

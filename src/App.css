@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
 
 .reminder {
-    border-left: 2px solid blue;
+    border-left: 4px solid green;
+    border-radius: 5px;
 }
 
 .container {
-    height: ;
+    
 }
